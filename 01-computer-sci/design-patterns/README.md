@@ -1,0 +1,26 @@
+This is a note repo for design models:
+- Creational patterns
+	- [ ] Factory Method Pattern
+	- [ ] Abstract Factory Pattern
+	- [ ] Builder Pattern
+	- [ ] Prototype Pattern
+	- [ ] Singleton Pattern
+- Structural patterns
+	- [ ] Adapte Pattern
+	- [ ] Bridge Pattern
+	- [ ] Composite Pattern
+	- [ ] Decorator Pattern
+	- [ ] Facade Pattern
+	- [ ] Flyweight Pattern
+	- [ ] Proxy Pattern
+- Behavioral patterns
+	- [ ] Chain of Responsibility Pattern
+	- [ ] Command Pattern
+	- [ ] Iterator Pattern
+	- [ ] Mediator Pattern
+	- [ ] Memento Pattern
+	- [x] Observer Pattern
+	- [ ] State Pattern
+	- [x] Strategy Pattern
+	- [ ] Template Method Pattern
+	- [ ] Visitor Pattern

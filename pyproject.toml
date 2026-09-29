@@ -1,0 +1,18 @@
+[project]
+name = "obsidian-note"
+version = "0.1.0"
+description = "Obsidian 笔记库：skills 的 Python 运行环境，uv sync 一键恢复。"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "mineru-open-sdk>=0.2.5,<0.3",
+]
+
+[project.optional-dependencies]
+# 无字幕视频的本地转录兜底（faster-whisper → ctranslate2/onnxruntime/numpy 等）
+whisper = [
+    "faster-whisper>=1.1.0",
+    "huggingface-hub>=0.24.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
