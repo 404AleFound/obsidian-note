@@ -1,7 +1,6 @@
 {
 	"nodes":[
-		{"id":"723932ac719abf03","x":-204,"y":-99,"width":250,"height":60,"type":"text","text":"文献调研"},
-		{"id":"be21b4afe280d38b","x":120,"y":-380,"width":250,"height":50,"type":"text","text":""}
+		{"id":"723932ac719abf03","type":"text","text":"文献调研","x":-400,"y":-240,"width":250,"height":60}
 	],
 	"edges":[]
 }
