@@ -2,6 +2,7 @@
 tags:
   - segmentation
   - attention
+  - "#transformer"
 ---
 **CaveSeg: Deep Semantic Segmentation and Scene Parsing for Autonomous Underwater Cave Exploration**
 
@@ -21,3 +22,4 @@ tags:
 >[!note]
 >迁移过来，对于淤泥识别的数据集构建也可以构建泛化挑战：有/无流数据集、成像条件恶化数据集。同时也要说明数据集类别的分布。
 
+从算法角度看，本论文的特征提取骨干网络采用基于纯注意力机制的 swin transformer，同时进行了特征融合与金字塔池化（PPM）用于特征融合。
