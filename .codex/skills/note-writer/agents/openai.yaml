@@ -1,0 +1,5 @@
+interface:
+  display_name: "Note Writer"
+  short_description: "受限论文笔记写作（仅显式调用）"
+policy:
+  allow_implicit_invocation: false

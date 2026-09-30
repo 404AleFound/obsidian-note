@@ -1,0 +1,22 @@
+# Python 环境记录
+
+扫描时间：2026-08-25
+最近验证：2026-09-10（仓库已迁至 `D:\19816\obsidian-note`，重新验证项目 `.venv`）
+
+## 当前环境
+
+| 优先级 | 类型 | 解释器路径 | 版本 | 状态 |
+|---|---|---|---|---|
+| 1 | 项目 uv 虚拟环境 | `D:\19816\obsidian-note\.venv\Scripts\python.exe` | Python 3.12.14 | 可用 |
+| 2 | uv 托管 | `C:\Users\19816\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\python.exe` | Python 3.13.5 | 可用 |
+
+## 扫描记录
+
+- conda：未安装（`conda` 命令不可用）
+- uv：`/c/Users/19816/.local/bin/uv`，托管 Python 3.13.5 可用
+- `.venv`：`D:\19816\obsidian-note\.venv`（隐藏目录，注意名字带点），Python 3.12.14，可用；`sys.executable` 与绝对路径一致
+- PDF 依赖（2026-09-10 检查）：`fitz` (PyMuPDF) 可用；pypdf / PyPDF2 / pdfplumber / pdfminer 缺失（仅报告，未安装）
+- 系统 Python：未使用（uv 环境优先）
+- 注：旧记录中的 `D:\19816\Documents\obsidian-note` 路径已失效
+
+下次运行先读取本文件，验证路径仍可用；环境变化时更新本记录。

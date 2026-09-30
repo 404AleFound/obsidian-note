@@ -1,0 +1,38 @@
+{
+  "skill_name": "auto-image-rename",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我重命名 test-notes/meeting-notes.md 里的图片",
+      "expected_output": "将 test-notes/meeting-notes.md 中引用的图片根据内容重命名，并更新 .md 文件中的引用",
+      "files": ["test-notes/meeting-notes.md", "test-notes/images/abc.jpg"],
+      "expectations": [
+        "图片被重命名为描述性文件名",
+        ".md 文件中的引用路径被更新",
+        "输出格式为表格而非冗长文本"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "把 test-notes/ 文件夹里所有 markdown 的图片都重命名一下",
+      "expected_output": "处理 test-notes/ 文件夹下所有包含图片引用的 .md 文件，批量重命名图片",
+      "files": ["test-notes/meeting-notes.md", "test-notes/project-plan.md", "test-notes/images/abc.jpg", "test-notes/images/def.png"],
+      "expectations": [
+        "多个 .md 文件都被处理",
+        "无图片引用的文件被跳过",
+        "所有引用被正确更新"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "重命名 test-notes/single-image.md 里的图片，其中有一张已经重命名过了",
+      "expected_output": "已重命名的图片被跳过，未重命名的图片被处理",
+      "files": ["test-notes/single-image.md", "test-notes/images/xyz.png"],
+      "expectations": [
+        "已处理过的图片不应再次被重命名",
+        "未处理的图片被正常重命名",
+        "跟踪文件被正确更新"
+      ]
+    }
+  ]
+}

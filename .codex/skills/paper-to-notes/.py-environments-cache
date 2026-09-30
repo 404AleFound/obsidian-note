@@ -1,0 +1,17 @@
+# Python 环境记录（Codex 技能版）
+
+扫描时间：2026-09-09
+最近验证：2026-09-09（由 .claude 版转写时按仓库根 AGENTS.md 校准到当前项目 `.venv`）
+
+## 当前环境
+
+| 优先级 | 类型 | 解释器路径 | 版本 | 状态 |
+|---|---|---|---|---|
+| 1 | 项目虚拟环境 | `D:\19816\obsidian-note\.venv\Scripts\python.exe` | 3.12.14 | 可用 |
+
+## 说明
+
+- 仓库根 `AGENTS.md` 指定：所有 Python / pip / 本仓库脚本一律通过 `D:\19816\obsidian-note\.venv\Scripts\python.exe` 执行，不依赖跨命令的激活状态。
+- 本技能每次运行先读取本文件；使用前先按「扫描 Python 环境」环节核验记录（路径、版本、`sys.executable`）。
+- 若记录失效，按项目/父目录中的 Conda/uv、`.venv`/`venv`、系统 Python 的顺序重新查找并更新本文件。
+- 运行 `scripts/check_pdf_env.py` 检查 PDF 文本提取依赖是否可用；缺少依赖仅报告，不安装。
