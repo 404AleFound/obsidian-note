@@ -7,8 +7,6 @@ kanban-plugin: list
 ## 
 
 **Complete**
-- [x] [df](df.md)
-- [x] df
 
 
 ***
