@@ -2,6 +2,7 @@
 tags:
   - defect-detection
   - lightweighting
+  - "#yolo"
   - "#cross-scale-feature"
 ---
 **A lightweight cross-scale feature fusion model based on YOLOv8 for defect detection in sewer pipeline**
