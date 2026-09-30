@@ -1,0 +1,54 @@
+{
+  "images/observer-pattern-background-comparison.png": {
+    "original_name": "images/subscription-spam-problem-comparison.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/publisher-subscriber-mechanism-diagram.png": {
+    "original_name": "images/publisher-subscriber-subscription-mechanism.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/editor-observer-event-manager-example.png": {
+    "original_name": "images/editor-event-manager-observer-example.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/notifier-application-decorator-example.png": {
+    "original_name": "images/notification-library-decorator-example.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/inheritance-versus-aggregation-diagram.png": {
+    "original_name": "images/inheritance-vs-aggregation-comparison.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/decorator-pattern-datasource-structure.png": {
+    "original_name": "images/decorator-pattern-class-structure.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/navigator-route-strategy-class-diagram.png": {
+    "original_name": "images/navigator-route-strategy-example.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/strategy-pattern-context-interface-diagram.png": {
+    "original_name": "images/strategy-pattern-class-structure.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/distributed-git-team-workflow-diagram.png": {
+    "original_name": "images/distributed-git-team-workflow.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/git-flow-branching-workflow-diagram.png": {
+    "original_name": "images/git-flow-branching-model-diagram.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/publisher-subscriber-mechanism-test.png": {
+    "original_name": "images/xyz.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/navigator-route-strategy-test.png": {
+    "original_name": "images/def.png",
+    "timestamp": "2026-05-17T00:00:00Z"
+  },
+  "images/editor-observer-event-manager-test.jpg": {
+    "original_name": "images/abc.jpg",
+    "timestamp": "2026-05-17T00:00:00Z"
+  }
+}

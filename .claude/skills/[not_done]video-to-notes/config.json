@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "profile": {
+    "id": "cpu-int8",
+    "backend": "faster-whisper",
+    "model": ".models/large-v3-turbo",
+    "device": "cpu",
+    "compute_type": "int8",
+    "pip_extras": ["faster-whisper"],
+    "reason": "CPU 兜底（GPU 缺 cuBLAS 库）",
+    "notes": [
+      "GPU 转录需先装 cuBLAS（nvidia-cublas-cu12 或 CUDA Toolkit），再把 device 改回 cuda、compute_type 改回 int8_float16"
+    ]
+  },
+  "ffmpeg": { "path": null },
+  "model": {
+    "source": ".models/large-v3-turbo",
+    "path": ".models/large-v3-turbo"
+  },
+  "preferences": { "language": "zh", "output_environment": "obsidian" },
+  "whisper": { "model_mode": "recommended", "fallback_enabled": true }
+}

@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-08-30T13:26:58.071716+00:00",
+  "workspace": "D:\\19816\\obsidian-note\\.claude\\skills\\video-to-notes",
+  "reports": [
+    {
+      "folder": "2026-08-17_bilibili_BV1ACbi6DEvC_deepseek-harness到底是什么-一个动画彻底搞懂",
+      "title": "DeepSeek Harness到底是什么？一个动画彻底搞懂！",
+      "channel": "轩辕的编程宇宙",
+      "platform": "bilibili",
+      "source_url": "https://www.bilibili.com/video/BV1ACbi6DEvC/?spm_id_from=333.337.search-card.all.click&vd_source=41bae495d2931a7e6b683f50a0923307",
+      "published_at": "2026-08-17T14:28:01+00:00",
+      "processed_at": "2026-08-30T13:22:41.102554+00:00",
+      "duration_seconds": 656.312,
+      "transcript_source": "local_whisper",
+      "tags": [],
+      "summary_preview": "",
+      "report_exists": true,
+      "transcript_exists": true,
+      "report_path": "D:\\19816\\obsidian-note\\.claude\\skills\\video-to-notes\\processed\\2026-08-17_bilibili_BV1ACbi6DEvC_deepseek-harness到底是什么-一个动画彻底搞懂\\report.html"
+    }
+  ]
+}
