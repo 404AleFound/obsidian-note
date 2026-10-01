@@ -7,6 +7,12 @@ tags:
 **MVPF: Multitask Visual Perception Framework for Robust Sewer Defect Segmentation Under Challenging Environmental Conditions**
 
 ---
+![[Screenshot 2026-10-01 at 16.32.42.png]]
+>[!note]
+> 多模型协作框架 + 缺陷分割的算法设计
+> 缺陷分割主算法：
+> - 在特征提取骨干，分别使用基于 CNN 的和基于 transformer 的分支，并且不断将基于 CNN 提出的特征图叠加到基于 transformer 的分支中去，叠加方式参考了通道注意力机制
+
 
 ```text
 Since AlexNet [22] achieved great success in the ImageNet large-scale visual recognition challenge (ILSVRC), deep learning-based computer vision techniques has attracted tremendous attentions in recent years. Ronneberger et al. [23] proposed UNet, achieving high-precision semantic segmentation results. This framework has demonstrated exceptional efficacy in medical segmentation and remote sensing. He et al. [24] solved the training problem of deep neural networks through residual connections and the proposed ResNet is widely utilized as backbone for other deep learning tasks. Besides, Bahdanau et al. [25] first introduced attention mechanism into deep learning methods, and then, channel attention module (CAM), spatial attention module (SAM), and convolutional block attention module (CBAM) were proposed for CNN successively following this design idea. More recently, methods based on transformer module have achieved optimal performance in various deep learning tasks. Different from CNN that relies on convolution operations, transformer block mainly extracts features by self-attention mechanism, leading it easier to extract global features. Dosovitskiy et al. [26] proposed a simple and efficient paradigm to introduce transformer block into computer vision tasks, which has been extensively studied and adopted in subsequent researches. Subsequently, Zheng et al. [27] and Xie et al. [28] applied transformer block to semantic segmentation and both achieved high-precision results.
