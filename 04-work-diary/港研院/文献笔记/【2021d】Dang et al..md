@@ -19,6 +19,13 @@ tags:
 >不平衡数据处理：
 >- XGBoost 和 lightGBM
 
+本篇文章重点就在将数据集类别不平衡的问题，即在管道检测数据集中，异常的数据占比较少，导致网络可能会倾向于保守地预测为“正常”，这种问题也叫 IDP（Imbalanced Data Problem），常见的解决类别不平衡的方法为：
+- 重采样方法（resampling）
+- 代价敏感学习（cost-sensitive learning）
+- 集成学习（ensemble learning）
+
+
+
 # 写作学习
 
 ![[Pasted image 20261001183826.png]]
