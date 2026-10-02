@@ -67,10 +67,6 @@ Boosting 是逐步训练模型：
 
 # 写作学习
 
-![[Pasted image 20261001183826.png]]
->[!note]
->这图的结构挺不错的，可以学习一下，随后可以移植到自己的论文中。
-
 *Sewer images that contain defect region(s) are minor compared to non-defect images during the data collection process, which was previously described.* 
 
 >[!note]
