@@ -25,3 +25,9 @@ tags:
 >[!note]
 >这图的结构挺不错的，可以学习一下，随后可以移植到自己的论文中。
 
+*Sewer images that contain defect region(s) are minor compared to non-defect images during the data collection process, which was previously described.* 
+
+>[!note]
+>与之前描述的数据收集过程中的非缺陷图像相比，包含缺陷区域的下水道图像较小。因此，以前的下水道缺陷检测框架通常会受到 IDP（Imbalanced data problem） 的影响（在数据收集过程中，包含缺陷区域的下水道图像与非缺陷图像相比较小，如前所述。
+
+
