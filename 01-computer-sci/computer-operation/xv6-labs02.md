@@ -8,24 +8,41 @@
 
 ```c
 // user/user.h
-// ...
-int sleep(int);
-int uptime(void);
-int trace(int); // 新的系统调用 trace 的函数签名
+
+int trace(int); // add the signature of function trace(...)
 ```
 
 接着在 `user/usys.ps` 里为这个函数签名加入一个 `entry`。
 
 ```c
 // user/usys.pl
-// ...
-entry("sleep");
-entry("uptime");
+
 entry("trace");
 ```
 
+
+经过编译后, `entry("trace")`为我们在`usys.S`里生成了如下的汇编代码：
+
 ```c
-// /usr/syscall.c
+// usys.S
+.global trace
+trace:
+	li a7, SYS_trace
+	ecall
+	ret
+```
+
+
+
+
+
+然后，实现内核态下的**sys_trace**函数, 用**argint**函数从寄存器拿参数, 用**myproc**获得当前进程的一个指针。
+
+
+接着为这个
+
+```c
+// /kernel/syscall.c
 void
 syscall(void)
 {
